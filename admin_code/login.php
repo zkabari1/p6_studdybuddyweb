@@ -16,4 +16,5 @@
 	else {
 		echo "Invalid Email & Password";
 	}
+	header('Location: ../index.php');
 ?>
