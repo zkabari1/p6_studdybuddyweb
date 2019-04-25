@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">  
 <head>    
-<title>StuddyBuddy &mdash;</title>    
+<title>StuddyBuddy</title>    
 <meta charset="utf-8">    
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">            
 <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">    
@@ -29,7 +29,7 @@
 		   <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">      
 		   <li><a href="#home-section" class="nav-link">Home</a></li>         
 		   <li><a href="#courses-section" class="nav-link">Buddies</a></li>       
-		   <li><a href="#programs-section" class="nav-link">Projects</a></li>       
+		   <li><a href="#programs-section" class="nav-link">Posts</a></li>       
 		   <li><a href="#teachers-section" class="nav-link">Reviews</a></li>      
 		   </ul>          
 		   </nav>       
@@ -264,26 +264,31 @@
 			   <div class="container">     
 			   <div class="row mb-5 justify-content-center">    
 			   <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">     
-			   <h2 class="section-title">Projects</h2>         
-			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>    
+			   <h2 class="section-title">Posts</h2>         
+			   <p>All projects, blogs, articles, work uploaded by students with public account will appear here. For private account students, please sent them requests.</p>    
 			   </div>  
-			   </div>   
-			   <div class="row mb-5 align-items-center">       
-			   <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">       
-			   <img src="images/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">   
-			   </div>        
-			   <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">    
-			   <h2 class="text-black mb-4">We Are Excellent In Education</h2>         
-			   <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>            <div class="d-flex align-items-center custom-icon-wrap mb-3">    
-			   <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>    
-			   <div><h3 class="m-0">22,931 Yearly Graduates</h3></div>     
-			   </div>        
-			   <div class="d-flex align-items-center custom-icon-wrap">       
-			   <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>     
-			   <div><h3 class="m-0">150 Universities Worldwide</h3></div>       
-			   </div>      
-			   </div>     
-			   </div>       
+			   </div>  
+			   
+			   <script type="text/javascript">
+			   var rows5 = JSON.parse('<?php include "admin_code/displayallpost.php" ?>');
+			   for (var key=0;key<rows5.length;key++) {
+			   document.write('<div class="row mb-5 align-items-center"> '+      
+			   '<div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">  '+     
+			   '<img src="images/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">  '+ 
+			  ' </div>  '+      
+			   '<div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200"> ' +  
+			   '<h2 class="text-black mb-4">'+rows5[key].name+'</h2>   '   +   
+			   '<p class="mb-4">'+rows5[key].title+'</p>            <div class="d-flex align-items-center custom-icon-wrap mb-3">  '+  
+			   '<div><h3 class="m-0">'+rows5[key].link+'</h3></div>     '+
+			   '</div>        '+
+			   '<div class="d-flex align-items-center custom-icon-wrap">   '+    
+			   '<div><h3 class="m-0">'+rows5[key].summary+'</h3></div> '+      
+			   '</div>  '+    
+			   '</div>'+     
+			   '</div>'); 
+			   }
+				</script>
+			   
 			   </div>   
 			   </div>   
 			   <div class="site-section" id="teachers-section">   
@@ -367,7 +372,7 @@
 				<ul class="list-unstyled footer-links">          
 				<li><a href="#">Home</a></li>         
 				<li><a href="#">Buddies</a></li>    
-				<li><a href="#">Projects</a></li>   
+				<li><a href="#">Posts</a></li>   
 				<li><a href="#">Reviews</a></li>     
 				</ul>       
 				</div>         

@@ -13,7 +13,12 @@
 			VALUES ('$myemail','$emailto')";
 	 	
 		if (mysqli_query($conn, $sql)) {
-			echo "success";
+			echo "<script>
+				alert('Request Sent!!');
+				window.location.href='../profile.php';  
+				</script>";
+			//header('Location: ../profile.php');	
+			
 			} else {
 			echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 			}

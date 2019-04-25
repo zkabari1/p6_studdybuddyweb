@@ -1,7 +1,7 @@
 <?php
    include("db.php");
-    
-      $myemail = mysqli_real_escape_string($conn,$_POST['email']);
+     $myemail = $_SESSION['sessionmail'];
+    //  $myemail = mysqli_real_escape_string($conn,$_POST['email']);
       $sql = "SELECT * FROM usertable where email != '$myemail'";
 	  $result = mysqli_query($conn,$sql);
 	  $rows = array();

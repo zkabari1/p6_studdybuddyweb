@@ -1,6 +1,7 @@
 <?php
    include("db.php");
-      $sql = "SELECT name, university, major FROM usertable";
+	  $myemail = $_SESSION['sessionmail'];
+      $sql = "SELECT * FROM posts where email = '$myemail'";
 	  $result = mysqli_query($conn,$sql);
 	  $rows = array();
 		while($r = mysqli_fetch_assoc($result)) {

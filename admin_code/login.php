@@ -12,9 +12,10 @@
       if($count == 1) {
 		session_start();
 		echo "success";
+		$_SESSION['sessionmail'] = $myemail;
+			header('Location: ../profile.php');
 		}
 	else {
 		echo "Invalid Email & Password";
 	}
-	header('Location: ../index.php');
 ?>
