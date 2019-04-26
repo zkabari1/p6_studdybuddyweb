@@ -3,11 +3,16 @@
   // echo "zimple";
 	  $myemail = $_SESSION['sessionmail'];
 	  //$myemail="hinu";
-	  $sql = "SELECT emailfor FROM requestdetails where emailfrom='$myemail' and result='true'";
+	  $sql = "SELECT * FROM requestdetails where (emailfrom='$myemail' or emailfor='$myemail') and result='true'";
 	  $result = mysqli_query($conn,$sql);
 	  //echo $result[0];
       while($r = mysqli_fetch_assoc($result)) {
-		  $temp=$r["emailfor"];
+		  if($r["emailfor"] == $myemail){
+			$temp=$r["emailfrom"];
+		  }
+		  else{
+			  $temp=$r["emailfor"];
+		  }
 		 	$sql1 = "SELECT * FROM posts p,usertable u where p.email=u.email and p.email='$temp'";
 			$result1 = mysqli_query($conn,$sql1);
 			$rows = array();
