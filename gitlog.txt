@@ -1,0 +1,321 @@
+commit c320de3b88563271ce2b08cec7eb5696cf392f8a
+Merge: 1350c02 f855eb8
+Author: Shivani Dhanasamy <shivanidhanasamy04@gmail.com>
+Date:   Fri Apr 26 15:51:38 2019 -0400
+
+    Merge branch 'master' of https://github.com/zkabari1/p6_studdybuddyweb
+
+commit 1350c024008d0de984f3de3883f3f6240d338327
+Author: Shivani Dhanasamy <shivanidhanasamy04@gmail.com>
+Date:   Fri Apr 26 15:51:13 2019 -0400
+
+    final
+
+ Screenshots/Screenshot (10).png | Bin 175187 -> 0 bytes
+ Screenshots/Screenshot (11).png | Bin 301740 -> 0 bytes
+ Screenshots/Screenshot (12).png | Bin 113190 -> 0 bytes
+ Screenshots/Screenshot (13).png | Bin 627345 -> 0 bytes
+ Screenshots/Screenshot (14).png | Bin 246340 -> 0 bytes
+ Screenshots/Screenshot (15).png | Bin 426646 -> 0 bytes
+ Screenshots/Screenshot (16).png | Bin 321454 -> 0 bytes
+ Screenshots/Screenshot (24).png | Bin 124032 -> 0 bytes
+ Screenshots/Screenshot (8).png  | Bin 412233 -> 0 bytes
+ Screenshots/Screenshot (9).png  | Bin 587808 -> 0 bytes
+ 10 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f855eb82e480d9ccccce5818a93663fa61be94b8
+Author: Shivani Dhanasamy <42826330+Shivani48@users.noreply.github.com>
+Date:   Fri Apr 26 15:49:06 2019 -0400
+
+    Update README.md
+
+ README.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit f30b73e1cc01f1004630a700e244fdd47b4c147a
+Author: Shivani Dhanasamy <42826330+Shivani48@users.noreply.github.com>
+Date:   Fri Apr 26 15:43:42 2019 -0400
+
+    Update README.md
+
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit d648ddcdcbde666c77c969f673460bc9a3877a72
+Author: zimple kabariya <zkabari1@binghamton.edu>
+Date:   Fri Apr 26 12:16:49 2019 -0400
+
+    added screenshots
+
+ Screenshots/Screenshot (10).png | Bin 0 -> 175187 bytes
+ Screenshots/Screenshot (11).png | Bin 0 -> 301740 bytes
+ Screenshots/Screenshot (12).png | Bin 0 -> 113190 bytes
+ Screenshots/Screenshot (13).png | Bin 0 -> 627345 bytes
+ Screenshots/Screenshot (14).png | Bin 0 -> 246340 bytes
+ Screenshots/Screenshot (15).png | Bin 0 -> 426646 bytes
+ Screenshots/Screenshot (16).png | Bin 0 -> 321454 bytes
+ Screenshots/Screenshot (24).png | Bin 0 -> 124032 bytes
+ Screenshots/Screenshot (8).png  | Bin 0 -> 412233 bytes
+ Screenshots/Screenshot (9).png  | Bin 0 -> 587808 bytes
+ Screenshots/submit1.png         | Bin 0 -> 359597 bytes
+ Screenshots/submit2.png         | Bin 0 -> 261062 bytes
+ Screenshots/submit3.png         | Bin 0 -> 179450 bytes
+ admin_code/displaybuddypost.php |   9 +++++++--
+ 14 files changed, 7 insertions(+), 2 deletions(-)
+
+commit bec8d163e828b0b29099daec5cb71a7cf1c84fad
+Merge: 8269d90 42bdac6
+Author: zimple kabariya <zkabari1@binghamton.edu>
+Date:   Wed Apr 24 22:51:24 2019 -0400
+
+    Merge branch 'master' of https://github.com/zkabari1/p6_studdybuddyweb
+    merging changes done by shivani
+
+commit 8269d90b105df2d78ff60b2a5afb7d4cb24a9049
+Author: zimple kabariya <zkabari1@binghamton.edu>
+Date:   Wed Apr 24 22:50:11 2019 -0400
+
+    back end completed
+
+ admin_code/acceptreject.php                        |  30 ++
+ admin_code/checkreq.php                            |  13 +-
+ admin_code/display.php                             |   4 +-
+ .../{displayreview.txt => displayallpost.php}      |   2 +-
+ admin_code/displaybuddypost.php                    |  19 +
+ admin_code/displayprofile.php                      |  11 +
+ admin_code/displayyourpost.php                     |  11 +
+ admin_code/login.php                               |   3 +-
+ admin_code/logout.php                              |   8 +
+ admin_code/newpost.php                             |  26 ++
+ admin_code/register.php                            |   2 +-
+ admin_code/request.php                             |   7 +-
+ course-single.html                                 | 447 ------------------
+ index.html                                         | 510 ---------------------
+ index.php                                          |  49 +-
+ profile.php                                        | 375 +++++++++++++++
+ 16 files changed, 524 insertions(+), 993 deletions(-)
+
+commit 42bdac6120052520bd996d2b9cbcbf10d39e0dba
+Author: Shivani Dhanasamy <42826330+Shivani48@users.noreply.github.com>
+Date:   Wed Apr 24 18:08:10 2019 -0400
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c014db96fec9baab7aa3dc4b3463c6b0fd8d5ee8
+Author: zimple kabariya <zkabari1@binghamton.edu>
+Date:   Tue Apr 23 22:21:48 2019 -0400
+
+    login register review
+
+ admin_code/displayreview.php |  10 +
+ admin_code/displayreview.txt |  10 +
+ admin_code/login.php         |   1 +
+ admin_code/register.php      |  29 +-
+ admin_code/sendmsg.php       |  26 ++
+ images/ava1.JPG              | Bin 0 -> 97666 bytes
+ images/ava2.png              | Bin 0 -> 28256 bytes
+ images/ava3.png              | Bin 0 -> 32259 bytes
+ images/ava4.jpg              | Bin 0 -> 37408 bytes
+ index.php                    | 892 +++++++++++++++++++------------------------
+ 10 files changed, 433 insertions(+), 535 deletions(-)
+
+commit a83f8b827940276e3f9e4f121e24b2c15d0ba5b0
+Author: zimple kabariya <zkabari1@binghamton.edu>
+Date:   Mon Apr 22 21:20:39 2019 -0400
+
+    added layout and buddies page
+
+ .DS_Store                                      |   Bin 0 -> 6148 bytes
+ admin_code/checkreq.php                        |    20 +
+ admin_code/db.php                              |    18 +
+ admin_code/display.php                         |    13 +
+ admin_code/displayall.php                      |    10 +
+ admin_code/login.php                           |    19 +
+ admin_code/profile.php                         |    19 +
+ admin_code/register.php                        |    28 +
+ admin_code/request.php                         |    22 +
+ course-single.html                             |   447 +
+ css/.DS_Store                                  |   Bin 0 -> 6148 bytes
+ css/aos.css                                    |     2 +
+ css/bootstrap-datepicker.css                   |   471 +
+ css/bootstrap.min.css                          |  7327 ++++
+ css/bootstrap.min.css.map                      |     1 +
+ css/bootstrap/bootstrap-grid.css               |  1708 +
+ css/bootstrap/bootstrap-reboot.css             |   273 +
+ css/bootstrap/bootstrap.css                    |  7325 ++++
+ css/jquery-ui.css                              |   654 +
+ css/jquery.fancybox.min.css                    |     1 +
+ css/magnific-popup.css                         |   351 +
+ css/mediaelementplayer.css                     |   773 +
+ css/owl.carousel.min.css                       |     6 +
+ css/owl.theme.default.min.css                  |    15 +
+ css/style.css                                  |  1126 +
+ fonts/.DS_Store                                |   Bin 0 -> 6148 bytes
+ fonts/flaticon/backup.txt                      |     1 +
+ fonts/flaticon/font/Flaticon.eot               |   Bin 0 -> 3066 bytes
+ fonts/flaticon/font/Flaticon.svg               |    79 +
+ fonts/flaticon/font/Flaticon.ttf               |   Bin 0 -> 2888 bytes
+ fonts/flaticon/font/Flaticon.woff              |   Bin 0 -> 2076 bytes
+ fonts/flaticon/font/Flaticon.woff2             |   Bin 0 -> 1544 bytes
+ fonts/flaticon/font/_flaticon.scss             |    52 +
+ fonts/flaticon/font/flaticon.css               |    45 +
+ fonts/flaticon/font/flaticon.html              |   485 +
+ fonts/flaticon/license/license.pdf             |   Bin 0 -> 36473 bytes
+ fonts/icomoon/Read Me.txt                      |     7 +
+ fonts/icomoon/demo-files/demo.css              |   155 +
+ fonts/icomoon/demo-files/demo.js               |    30 +
+ fonts/icomoon/demo.html                        | 26137 ++++++++++++++
+ fonts/icomoon/fonts/icomoon.eot                |   Bin 0 -> 307332 bytes
+ fonts/icomoon/fonts/icomoon.svg                |  1530 +
+ fonts/icomoon/fonts/icomoon.ttf                |   Bin 0 -> 307168 bytes
+ fonts/icomoon/fonts/icomoon.woff               |   Bin 0 -> 307244 bytes
+ fonts/icomoon/selection.json                   | 41190 +++++++++++++++++++++++
+ fonts/icomoon/style.css                        |  4919 +++
+ images/.DS_Store                               |   Bin 0 -> 6148 bytes
+ images/Untitled-8.jpg                          |   Bin 0 -> 21004 bytes
+ images/about_1.jpg                             |   Bin 0 -> 120610 bytes
+ images/blob_1.svg                              |    10 +
+ images/blob_2.svg                              |    10 +
+ images/hero_1.jpg                              |   Bin 0 -> 3580634 bytes
+ images/img_1.jpg                               |   Bin 0 -> 27935 bytes
+ images/img_2.jpg                               |   Bin 0 -> 33039 bytes
+ images/img_2_big.jpg                           |   Bin 0 -> 56408 bytes
+ images/img_3.jpg                               |   Bin 0 -> 40854 bytes
+ images/img_4.jpg                               |   Bin 0 -> 108266 bytes
+ images/img_5.jpg                               |   Bin 0 -> 109489 bytes
+ images/img_6.jpg                               |   Bin 0 -> 49292 bytes
+ images/person_1.jpg                            |   Bin 0 -> 42965 bytes
+ images/person_2.jpg                            |   Bin 0 -> 41764 bytes
+ images/person_3.jpg                            |   Bin 0 -> 38262 bytes
+ images/person_4.jpg                            |   Bin 0 -> 20135 bytes
+ images/person_transparent.png                  |   Bin 0 -> 1303218 bytes
+ images/slide_1.jpg                             |   Bin 0 -> 116491 bytes
+ images/slide_2.jpg                             |   Bin 0 -> 85311 bytes
+ images/slide_3.jpg                             |   Bin 0 -> 90567 bytes
+ images/slide_4.jpg                             |   Bin 0 -> 209777 bytes
+ images/slider_1.jpg                            |   Bin 0 -> 439387 bytes
+ images/undraw_teacher.svg                      |     1 +
+ images/undraw_teaching.svg                     |     1 +
+ images/undraw_youtube_tutorial.svg             |     1 +
+ index.html                                     |   510 +
+ index.php                                      |   508 +
+ js/aos.js                                      |     2 +
+ js/bootstrap-datepicker.min.js                 |     9 +
+ js/bootstrap.min.js                            |     7 +
+ js/jquery-3.3.1.min.js                         |     2 +
+ js/jquery-migrate-3.0.1.min.js                 |   215 +
+ js/jquery-ui.js                                |  1735 +
+ js/jquery.countdown.min.js                     |    22 +
+ js/jquery.easing.1.3.js                        |   205 +
+ js/jquery.fancybox.min.js                      |    13 +
+ js/jquery.magnific-popup.min.js                |     4 +
+ js/jquery.stellar.min.js                       |     2 +
+ js/jquery.sticky.js                            |   288 +
+ js/main.js                                     |   308 +
+ js/mediaelement-and-player.min.js              |    12 +
+ js/owl.carousel.min.js                         |     7 +
+ js/popper.min.js                               |     5 +
+ js/slick.min.js                                |     1 +
+ js/typed.js                                    |    11 +
+ scss/.DS_Store                                 |   Bin 0 -> 6148 bytes
+ scss/_site-base.scss                           |   375 +
+ scss/_site-blocks.scss                         |   635 +
+ scss/_site-navbar.scss                         |   441 +
+ scss/bootstrap/.DS_Store                       |   Bin 0 -> 10244 bytes
+ scss/bootstrap/_alert.scss                     |    51 +
+ scss/bootstrap/_badge.scss                     |    47 +
+ scss/bootstrap/_breadcrumb.scss                |    41 +
+ scss/bootstrap/_button-group.scss              |   172 +
+ scss/bootstrap/_buttons.scss                   |   144 +
+ scss/bootstrap/_card.scss                      |   301 +
+ scss/bootstrap/_carousel.scss                  |   236 +
+ scss/bootstrap/_close.scss                     |    35 +
+ scss/bootstrap/_code.scss                      |    48 +
+ scss/bootstrap/_custom-forms.scss              |   433 +
+ scss/bootstrap/_dropdown.scss                  |   166 +
+ scss/bootstrap/_forms.scss                     |   333 +
+ scss/bootstrap/_functions.scss                 |    86 +
+ scss/bootstrap/_grid.scss                      |    52 +
+ scss/bootstrap/_images.scss                    |    42 +
+ scss/bootstrap/_input-group.scss               |   173 +
+ scss/bootstrap/_jumbotron.scss                 |    16 +
+ scss/bootstrap/_list-group.scss                |   115 +
+ scss/bootstrap/_media.scss                     |     8 +
+ scss/bootstrap/_mixins.scss                    |    41 +
+ scss/bootstrap/_modal.scss                     |   180 +
+ scss/bootstrap/_nav.scss                       |   118 +
+ scss/bootstrap/_navbar.scss                    |   299 +
+ scss/bootstrap/_pagination.scss                |    78 +
+ scss/bootstrap/_popover.scss                   |   183 +
+ scss/bootstrap/_print.scss                     |   141 +
+ scss/bootstrap/_progress.scss                  |    34 +
+ scss/bootstrap/_reboot.scss                    |   483 +
+ scss/bootstrap/_root.scss                      |    19 +
+ scss/bootstrap/_tables.scss                    |   187 +
+ scss/bootstrap/_tooltip.scss                   |   115 +
+ scss/bootstrap/_transitions.scss               |    22 +
+ scss/bootstrap/_type.scss                      |   125 +
+ scss/bootstrap/_utilities.scss                 |    15 +
+ scss/bootstrap/_variables.scss                 |   958 +
+ scss/bootstrap/bootstrap-grid.scss             |    32 +
+ scss/bootstrap/bootstrap-reboot.scss           |    12 +
+ scss/bootstrap/bootstrap.scss                  |    42 +
+ scss/bootstrap/mixins/_alert.scss              |    13 +
+ scss/bootstrap/mixins/_background-variant.scss |    21 +
+ scss/bootstrap/mixins/_badge.scss              |    12 +
+ scss/bootstrap/mixins/_border-radius.scss      |    35 +
+ scss/bootstrap/mixins/_box-shadow.scss         |     5 +
+ scss/bootstrap/mixins/_breakpoints.scss        |   123 +
+ scss/bootstrap/mixins/_buttons.scss            |   109 +
+ scss/bootstrap/mixins/_caret.scss              |    66 +
+ scss/bootstrap/mixins/_clearfix.scss           |     7 +
+ scss/bootstrap/mixins/_float.scss              |    11 +
+ scss/bootstrap/mixins/_forms.scss              |   147 +
+ scss/bootstrap/mixins/_gradients.scss          |    45 +
+ scss/bootstrap/mixins/_grid-framework.scss     |    67 +
+ scss/bootstrap/mixins/_grid.scss               |    52 +
+ scss/bootstrap/mixins/_hover.scss              |    37 +
+ scss/bootstrap/mixins/_image.scss              |    36 +
+ scss/bootstrap/mixins/_list-group.scss         |    21 +
+ scss/bootstrap/mixins/_lists.scss              |     7 +
+ scss/bootstrap/mixins/_nav-divider.scss        |    10 +
+ scss/bootstrap/mixins/_pagination.scss         |    22 +
+ scss/bootstrap/mixins/_reset-text.scss         |    17 +
+ scss/bootstrap/mixins/_resize.scss             |     6 +
+ scss/bootstrap/mixins/_screen-reader.scss      |    33 +
+ scss/bootstrap/mixins/_size.scss               |     6 +
+ scss/bootstrap/mixins/_table-row.scss          |    30 +
+ scss/bootstrap/mixins/_text-emphasis.scss      |    14 +
+ scss/bootstrap/mixins/_text-hide.scss          |    13 +
+ scss/bootstrap/mixins/_text-truncate.scss      |     8 +
+ scss/bootstrap/mixins/_transition.scss         |    13 +
+ scss/bootstrap/mixins/_visibility.scss         |     7 +
+ scss/bootstrap/utilities/_align.scss           |     8 +
+ scss/bootstrap/utilities/_background.scss      |    19 +
+ scss/bootstrap/utilities/_borders.scss         |    59 +
+ scss/bootstrap/utilities/_clearfix.scss        |     3 +
+ scss/bootstrap/utilities/_display.scss         |    38 +
+ scss/bootstrap/utilities/_embed.scss           |    52 +
+ scss/bootstrap/utilities/_flex.scss            |    51 +
+ scss/bootstrap/utilities/_float.scss           |     9 +
+ scss/bootstrap/utilities/_position.scss        |    37 +
+ scss/bootstrap/utilities/_screenreaders.scss   |    11 +
+ scss/bootstrap/utilities/_shadows.scss         |     6 +
+ scss/bootstrap/utilities/_sizing.scss          |    12 +
+ scss/bootstrap/utilities/_spacing.scss         |    51 +
+ scss/bootstrap/utilities/_text.scss            |    58 +
+ scss/bootstrap/utilities/_visibility.scss      |    11 +
+ scss/style.scss                                |    10 +
+ 181 files changed, 107610 insertions(+)
+
+commit 9a2e9a1e1311f748a6890b5365a0bb88f2102262
+Author: Zimple Kabariya <46978589+zkabari1@users.noreply.github.com>
+Date:   Mon Apr 22 15:51:36 2019 -0400
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
